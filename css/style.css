@@ -1,5 +1,47 @@
 @charset "utf-8";
 
+body {
+    margin:           0;
+    font-family:      Arial, sans-serif;
+    font-size:        16px;
+    background-color: #202020;
+}
+
 h1 {
-    color: red;
+    margin: 0;
+}
+
+.title-container {
+    background-color: black;
+    color:            whitesmoke;
+    padding:          1em;
+    margin-top:       0;
+}
+
+.video-container,
+.js-container {
+    padding-top: 3em;
+    text-align:  center;
+}
+
+button {
+    padding:          1em;
+    background-color: black;
+    color:            whitesmoke;
+    font-weight:      bold;
+    cursor:           pointer;
+    border:           3px solid whitesmoke;
+    width:            400px;
+}
+
+#trigger-js:before {
+    content: "JavaScript werk ook op GitHub Pages, probeer maar!";
+}
+
+#trigger-js:hover:before {
+    content: "Klik maar, je zal zien dat het werkt";
+}
+
+iframe {
+    border: 3px solid whitesmoke;
 }

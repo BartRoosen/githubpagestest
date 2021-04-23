@@ -1,9 +1,5 @@
 "use strict";
 
-let message = "hello world";
-
-function showMessage(mss) {
-    alert(mss);
-}
-
-showMessage(message);
+document.getElementById('trigger-js').addEventListener('click', () => {
+    alert('Zie je wel dat het werkt!');
+});
